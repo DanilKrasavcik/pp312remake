@@ -1,7 +1,6 @@
 package home.danil.myboot.PP312.controllers;
 
 
-
 import home.danil.myboot.PP312.models.User;
 import home.danil.myboot.PP312.services.UsersService;
 import jakarta.validation.Valid;
@@ -9,8 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
-//import javax.validation.Valid;
 
 /**
  * @author Neil Alishev

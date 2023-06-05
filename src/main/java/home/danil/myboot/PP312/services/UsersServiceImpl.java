@@ -2,7 +2,7 @@ package home.danil.myboot.PP312.services;
 
 
 
-import home.danil.myboot.PP312.dao.UserDAO;
+import home.danil.myboot.PP312.dao.UserDao;
 import home.danil.myboot.PP312.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,10 +14,10 @@ import java.util.List;
 @Transactional(readOnly = true)
 public class UsersServiceImpl implements UsersService {
 
-    private final UserDAO userDAO;
+    private final UserDao userDAO;
 
     @Autowired
-    public UsersServiceImpl(UserDAO userDAO) {
+    public UsersServiceImpl(UserDao userDAO) {
 
         this.userDAO = userDAO;
     }

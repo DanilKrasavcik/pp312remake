@@ -4,7 +4,7 @@ import home.danil.myboot.PP312.models.User;
 
 import java.util.List;
 
-public interface UserDAO {
+public interface UserDao {
 
     List<User> findAll();
 
